@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Hajara</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- load javascript after loading all html content -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand">Hajara's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Hajara</h2>
+                <p class="hero_desc">I want to showcase my projects here.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> My name is Hajara Sultan, you can call me Hajara . I am a motivated, enthusiastic lerner.
+                        I get across to people and adjust to changes with ease. 
+                        As a Computer science graduate, I am looking for new oppurtunities for personal and professional growth.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name : Hajara Sultan</li>
+                                <li>Education : M.Sc.</li>
+                                <li>Programming languages : Python, JavaScript</li>
+                                <li>Skills : Adaptability, Communication, Problem solving</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> As a mother of 3 Kids, I wanted to devote my time fully for my children to support their physical, mental and emotional growth.
+                            I am so happy that I was able to mould their personalities in a positive manner.
+                        </p>
+                        <p>
+                            My goal right now is to get into IT and inspire other women, who also want to start working after a career gap .
+                            To achieve my goal, started to learn Python programming language and other necessary skills for working as a Developer at the ReDI School Munich.
+                            By creating this portfolio project, I am able to learn HTML,CSS and JavaSCript and understand how to effectively use them.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-5 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Hangman Game</h4>
+                            <p class="card-text"><p>Hangman is a guessing game to form a word. 
+                                Player tries to guess a word by suggesting letters within a certain number of guesses. </p>
+                                <p>For this web application, I have used Python flask Framework, render_template for jinja2 and request for form details.
+                                    As this my first web application project I chose Flask as it is a lightweight framework.
+                                </p>
+                            </p>
+                            <div class="text-center">
+                                <input type="button" onclick="window.open('https://github.com/Hajara666/Hangman');" value="To GitHub" />
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text"> <p>This is a quiz application.
+                                Player can choose a category and each category has 5 questions.
+                                Player can either play, add or delete a quiz.</p>
+                                <p>Main goal of this project is to create, update or delete some endpoints using Python's FastAPI Framework,jinja2 and HTML template.
+                                Quizzes are stored in a database using sqlite3.</p>
+                             </p>
+                            <div class="text-center">
+                                <input type="button" onclick="window.open('https://github.com/Hajara666/Quiz-Application');" value="To GitHub" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-5 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Webscraping Project</h4>
+                            <p class="card-text">
+                                <p>This application is scraping the Linkedin website's jobs for keyword "Python developer and location "Munich".
+                                    It extracts the HTML tags for the information of job title, company name, job link and published date.
+                                    Finally, a gragh is drawn for the number of job entries for 3 months.
+                                </p>
+                                <p>
+                                    BeautifulSoup library is used for pulling data out of HTML and pandas module for data manipulation and analysis.
+                                    Visualisation is done with matplotlib.
+                                </p>
+                            </p>
+                            <div class="text-center">
+                                <input type="button" onclick="window.open('https://github.com/Hajara666/Web_Scraping_Project');" value="To GitHub" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage5.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">World Happiness Report</h4>
+                            <p class="card-text">
+                                <p>This is a detailed data analysis on the World Happiness Report for the years 2015-2020.
+                                    Emphasize the relation between the happiness score and the geographical location.
+
+                                </p>
+                                <p>NumPy and pandas are used for data manipulation and analysis. 
+                                    Graphs and charts are plotted by using matplotlib and seaborn.
+                                    Dashboards were created using Tableau software.</p>
+                            </p>
+                            <div class="text-center">
+                                <input type="button" onclick="window.open('https://github.com/Hajara666/World-Happiness-Report');" value="To GitHub" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+                        <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pickelstraße,+80637+Munich,+Germany&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="from-embedmap-code" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a>
+                        <style>#embed-map-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}
+                        </style>
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form onsubmit="return false">
+                        <input type="text" class="form-control mt-3" placeholder="First Name" id="firstName">
+                        <input type="text" class="form-control mt-3" placeholder="Last Name" id="lastName">
+                        <input type="email" class="form-control mt-3" placeholder="Email" id="email">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="message" name="text" placeholder="Message"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" onclick="sendContact();" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/hajara.banu.9" target="_blank"><i class="fab fa-facebook m-3"></i></a>
+                <a href="https://linkedin.com/in/hajara-sultan" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
